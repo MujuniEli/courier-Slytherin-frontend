@@ -41,3 +41,9 @@
 .miniCardSubTitle{
   font-size: small;
 }
+
+@media screen and (max-width:720px){
+  .servicesSect{
+    flex-direction: column;
+  }
+}

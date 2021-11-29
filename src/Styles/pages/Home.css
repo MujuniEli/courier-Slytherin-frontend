@@ -29,8 +29,15 @@
 
 .popularContainer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 75%;
     margin: auto;
+}
+
+@media screen and (max-width:720px) {
+    .popularContainer, .newArrivalsContainer{
+        flex-direction: column;
+    }
+
 }
